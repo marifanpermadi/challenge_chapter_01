@@ -1,4 +1,4 @@
-class MenuItem(val name: String, val price: Int)
+data class MenuItem(val name: String, val price: Int)
 
 class OrderMenu {
     //Daftar menu
